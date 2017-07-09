@@ -1,0 +1,160 @@
+/***GENERAL*******/
+body{
+  font-family: 'courier new',monospace;
+}
+a {
+  text-decoration: none;
+}
+#wrapper {
+
+  max-width: 940px;/*esto hace que el fondo sea de un tamaño, no me gusta*/
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img{
+  max-width: 100%;
+}
+h3{
+  margin: 0 0 1em 0;
+}
+
+/******HEADING*******/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1,{
+  font-family: 'Josefin Slab', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+
+h2{
+  font-size: 1.55em;
+  margin: -8px 0 0;
+  font-weight: normal;
+}
+
+/***** pag PORTAFOLIO*******/
+#gallery{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+/*****PAG CONTACTO*******/
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+.contact-info li.Facebook a{
+  background-image: url('../img/facebook.png');
+}
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+/********NAVEGACION********/
+nav{
+  text-align: center;
+  padding: 15px 0;
+  margin: 20px 0 0;
+}
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+}
+nav a {
+  font-weight: bold;
+  padding: 15px 12px; /* con este se le hace espacio a cada link*/
+}
+
+/*******FOOTER*******/
+
+footer, #facelogo {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  height: 50px;
+  clear: both;
+
+}
+
+/*******COLORES******/
+
+a{
+  color: #6ab47b;
+}
+/*ENCABEZADO*/
+header{
+  background: #CC085E; /*#02549A;*/ /*80ccff*/
+  border-color: #DE7D48; /*#1082C2;*//*22adff*/
+}
+/*TEXTO ENCABEZADO*/
+h1,h2 {
+  color: #fff;
+}
+/*NAVEGACION*/
+nav{
+  background: #33adff;
+}
+
+nav a, nav a:visited{ /* links que ya se visitaron*/
+  color: #fff;
+}
+nav a.selected, a:hover{ /*LINKS SELECCIONADOS*/
+  color: #EECA98; /*#008ae6;*/
+}
+/*CUERPO*/
+body{
+  background-color: #fff;
+  color: #999;
+}
